@@ -1,6 +1,6 @@
 class CreateChasses < ActiveRecord::Migration
   def change
-    create_table :chasses do |t|
+    create_table :chassis do |t|
       t.integer :team_id
       t.string :name
       t.timestamps

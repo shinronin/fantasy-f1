@@ -1,5 +1,10 @@
 require 'spec_helper'
 
 describe F1Team do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "can be instantiated" do
+    F1Team.new.should be_an_instance_of(F1Team)
+  end
+  it "can be saved successfully" do
+    F1Team.create.should be_persisted
+  end
 end

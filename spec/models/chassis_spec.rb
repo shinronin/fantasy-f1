@@ -7,4 +7,5 @@ describe Chassis do
   it "can be saved successfully" do
     Chassis.create.should be_persisted
   end
+  it { should belong_to(:team) }
 end

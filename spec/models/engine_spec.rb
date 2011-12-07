@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe Engine do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should belong_to(:team) }
+  # ISSUE/SEAN: wtf?
+  # it { should have_many(:suppliers) }  
 end
