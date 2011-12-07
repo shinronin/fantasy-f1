@@ -7,5 +7,5 @@ describe Season do
   it "can be saved successfully" do
     Season.create.should be_persisted
   end
-  it { should have_many(:races) }
+  it { should have_many(:race_meetings) }
 end
