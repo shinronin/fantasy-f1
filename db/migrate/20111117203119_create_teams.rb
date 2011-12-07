@@ -1,5 +1,6 @@
 class CreateTeams < ActiveRecord::Migration
   def change
+    # ISSUE/SEAN: What is relationship of Season <=> Team?
     create_table :teams do |t|
       t.string :name
       t.string :user_id # only UserTeam

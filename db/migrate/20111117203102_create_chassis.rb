@@ -1,4 +1,4 @@
-class CreateChasses < ActiveRecord::Migration
+class CreateChassis < ActiveRecord::Migration
   def change
     create_table :chassis do |t|
       t.integer :team_id

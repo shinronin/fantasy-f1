@@ -1,6 +1,6 @@
-class CreateSuppliers < ActiveRecord::Migration
+class CreateSupplier < ActiveRecord::Migration
   def change
-    create_table :suppliers do |t|
+    create_table :supplier do |t|
       t.string :name
       t.references :suppliable, :polymorphic => true
       t.timestamps
