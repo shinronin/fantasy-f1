@@ -1,3 +1,3 @@
 class Season < ActiveRecord::Base
-  has_many :races
+  has_many :race_meetings
 end

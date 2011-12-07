@@ -1,4 +1,4 @@
 class Engine < ActiveRecord::Base
   belongs_to :team
-  has_one :engine_supplier
+  has_one :supplier, :as => :suppliable
 end

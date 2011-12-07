@@ -5,4 +5,3 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-engine_suppliers = EngineSuppliers.create([{name: 'Ferrari', name: 'Merc', name: 'Renault', name: 'Cosworth'}])

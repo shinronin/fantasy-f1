@@ -1,0 +1,2 @@
+class UserTeam < Team
+end
