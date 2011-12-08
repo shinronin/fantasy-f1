@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-RiordanFantasyF1::Application.config.secret_token = '450d883d73de845a7ab2d0f8eb43c1bd9c9ecfe753014310d98295617bbe49fc0efa9f3b812dd3881e6cea61f6109402695f58cbbb54aca4f3b420c9b0c80531'
+FantasyF1::Application.config.secret_token = '5c4ec46fcfdd1a610ae169d200fa352617674bb76df8e076f8aac28d0af38add655e49bc5d3fa13ebe3404b372e9d85e96703d5ee8b770d859654d149289d898'

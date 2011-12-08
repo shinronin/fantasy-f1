@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-RiordanFantasyF1::Application.load_tasks
+FantasyF1::Application.load_tasks

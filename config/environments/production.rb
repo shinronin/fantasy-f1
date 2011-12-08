@@ -1,4 +1,4 @@
-RiordanFantasyF1::Application.configure do
+FantasyF1::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
